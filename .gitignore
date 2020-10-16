@@ -1,32 +1,72 @@
-# Operating System Files
+#
+# Project specific excludes
+#
 
-*.DS_Store
-Thumbs.db
-*.sw?
-.#*
-*#
-*~
-*.sublime-*
+tomcat
 
-# Build Artifacts
+#
+# Default excludes
+#
 
-.gradle/
-build/
+# Binaries
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+*.class
+
+# Maven 
 target/
-bin/
-dependency-reduced-pom.xml
 
-# Eclipse Project Files
+# IntelliJ project files 
+*.iml
+*.iws
+*.ipr
 
+# eclipse project file
+.settings/
+.metadata/
 .classpath
 .project
-.settings/
+classes/
 
-# IntelliJ IDEA Files
+# NetBeans specific
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
 
-*.iml
-*.ipr
-*.iws
-*.idea
 
-README.html
+# OS
+.DS_Store
+
+# Misc
+*.swp
+release.properties
+pom.xml.releaseBackup
+pom.xml.tag
+
+
+
+# General
+bin/
+coverage-report/
+testLogs/
+rebel.xml
+rebel-remote.xml
+
+#vs
+.factorypath
+
+.idea/
+
+.run/
