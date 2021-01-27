@@ -14,5 +14,6 @@ public class GreetingHandler {
 	public Mono<ServerResponse> hello(ServerRequest request) {
 		return ServerResponse.ok().contentType(MediaType.TEXT_PLAIN)
 			.body(BodyInserters.fromValue("Hello, Spring!"));
+
 	}
 }
